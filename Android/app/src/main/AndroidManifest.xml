@@ -24,6 +24,10 @@
             android:name=".LoginActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".PlaceHolderActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

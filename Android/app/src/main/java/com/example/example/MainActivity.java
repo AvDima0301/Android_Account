@@ -5,11 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -92,7 +92,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void handleLoginClick(View view) {
-
+    public void handleChangeLayoutClickPLaceHolder(View view) {
+        Intent i = new Intent(MainActivity.this, PlaceHolderActivity.class);
+        startActivity(i);
     }
 }
